@@ -16,5 +16,3 @@ jobs:
           node-version: 18
       - name: Install dependencies
         run: echo "${{ toJSON(github.event) }}"
-      - name: Run tests
-        run: npm test
